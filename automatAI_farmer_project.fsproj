@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Farmer" Version="3.0.0" />
+  </ItemGroup>
+
+  <Target Name="BuildWebsite" BeforeTargets="Build">
+    <Exec Command="farmer build" />
+  </Target>
+
+</Project>

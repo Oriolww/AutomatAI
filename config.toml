@@ -1,0 +1,8 @@
+title = "AutomatAI"
+description = "Turn chats into clients with AI."
+baseUrl = "/"
+language = "en"
+
+[params]
+logo = "/img/logo.svg"
+slogan = "Turn chats into clients with AI"
